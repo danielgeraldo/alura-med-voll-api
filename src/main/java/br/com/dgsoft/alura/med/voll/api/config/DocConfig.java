@@ -18,7 +18,7 @@ import java.util.Date;
 @Configuration
 public class DocConfig {
 
-    private final String API_GIT_URI = "http://git.tribanco.com.br/canais/canais-business-api/";
+    private final String API_GIT_URI = "https://github.com/danielgeraldo/alura-med-voll-api.git";
     private final String API_DESCRIPTION = "Api de Estudos na Alura com complementos";
     @Autowired
     private BuildProperties buildProperties;
