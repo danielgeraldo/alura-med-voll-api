@@ -1,0 +1,12 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /med-voll-api
+spring:
+  application:
+    name: MedVollApi
+springdoc:
+  swagger-ui:
+    docExpansion: none
+    path: /swagger-ui.html
+    tagsSorter: alpha

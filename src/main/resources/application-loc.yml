@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    password: 850510
+    url: jdbc:mysql://localhost:3306/vollmed-api
+    username: root
