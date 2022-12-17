@@ -1,5 +1,6 @@
 package br.com.dgsoft.alura.med.voll.api.controller;
 
+import br.com.dgsoft.alura.med.voll.api.service.GenericService;
 import br.com.dgsoft.alura.med.voll.api.service.impl.GenericServiceImpl;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -9,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 public class GenericController<T> {
 
-    private GenericServiceImpl<T> service;
+    private GenericService<T> service;
 
-    public GenericController(GenericServiceImpl<T> service) {
+    public GenericController(GenericService<T> service) {
         this.service = service;
     }
 
